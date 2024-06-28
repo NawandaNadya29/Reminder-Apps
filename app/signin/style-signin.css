@@ -57,9 +57,9 @@
     font-size: 0.875rem;
 }
   
-.form-input:focus {
+/* .form-input:focus {
     border-color: #6366f1;
-}
+} */
   
 .error-message {
     color: #f56565;

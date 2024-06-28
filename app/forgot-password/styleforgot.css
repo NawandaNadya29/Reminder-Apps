@@ -19,9 +19,9 @@
     margin-top: 20px;
   }
   
-  .form-input:focus {
+  /* .form-input:focus {
     border-color: #6366f1;
-  }
+  } */
   
 .submit-button {
     width: 100%;
