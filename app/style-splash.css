@@ -1,0 +1,53 @@
+body{
+  background-color: #E7D0D0;
+}
+
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .splash-image {
+    width: 200px;
+    height: auto; 
+    margin-top: 1px;
+  }
+  
+  .splash-title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .splash-sub-title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold
+  }
+  
+  .splash-description {
+    font-size: 1rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .splash-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #D38181; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  

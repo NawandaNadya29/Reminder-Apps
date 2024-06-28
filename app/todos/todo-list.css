@@ -1,0 +1,150 @@
+body{
+  background-color: #e7d0d0 !important;
+  
+}
+
+.container {
+  width: auto;
+  display: flex;          
+  flex-direction: column; 
+  align-items: center;     
+  justify-content: center;
+  margin: auto;
+}
+
+.logo {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.logogambar {
+  width: 150px;
+}
+
+.logout-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #DB8585;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.logout-btn:hover {
+  background-color: rgb(195, 123, 123);
+}
+
+.completed-btn-container {
+  margin-bottom: 20px;
+}
+
+.completed-btn {
+  padding: 10px 20px;
+  margin-left: 500px;
+  font-size: 1rem;
+  color: #ededed;
+  background-color: #E79191;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.completed-btn:hover {
+  background-color: rgb(195, 123, 123);
+}
+
+.tasks-list {
+  width: 100%;
+  /* max-width: 600px; */
+  margin-bottom: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 
+.task-item.completed-task {
+  text-decoration: line-through; 
+}
+
+.task-title.completed-text {
+  color: #888; 
+}
+
+.task-desc.completed-text {
+  color: #888; 
+} */
+
+.task-content {
+  flex: 1;
+}
+
+.task-title {
+  font-size: 1.5rem;
+  color: #E42F2F;
+  margin-bottom: 5px;
+}
+
+.task-desc {
+  font-size: 1rem;
+  color: #828282;
+}
+
+.task-actions {
+  display: flex;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #333;
+  margin-left: 10px;
+}
+
+.task-actions button:hover {
+  color: #007bff;
+}
+
+.add-btn-container {
+  position: fixed;      /* Membuat elemen fixed pada viewport */
+  bottom: 20px;         /* Jarak dari bawah layar */
+  right: 20px;          /* Jarak dari kanan layar */
+  z-index: 100;         /* Memastikan tombol tetap di atas elemen lain */
+}
+
+.add-btn {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #E79191;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.add-btn:hover {
+  background-color: rgb(195, 123, 123);
+}
+
+.task-item{
+  border-radius: 35px;
+  border: 2px solid pink;
+}
+
+  
