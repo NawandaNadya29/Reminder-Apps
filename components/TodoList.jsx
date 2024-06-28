@@ -64,6 +64,7 @@ const TodoList = () => {
   const handleLogout = async () => {
     try {
       await auth.signOut();
+      router.push('/signin'); 
     } catch (error) {
       console.error('Error logging out: ', error);
     }
